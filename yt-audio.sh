@@ -12,4 +12,4 @@ youtube-dl \
   --extract-audio \
   --output "./public/%(title)s.%(ext)s" \
   --merge-output-format "mkv" \
-  --batch-file "source"
+  --batch-file "source-audio"
