@@ -10,6 +10,6 @@ youtube-dl \
   --no-overwrites \
   --add-metadata \
   --extract-audio \
-  --output "./public/%(title)s.%(ext)s" \
+  --output "./public/audio/%(title)s.%(ext)s" \
   --merge-output-format "mkv" \
   --batch-file "source-audio"
